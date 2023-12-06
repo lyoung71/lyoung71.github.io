@@ -1672,3 +1672,8 @@ input, select, textarea {
 			height: 350px;
 			width: 450px;
 		}
+
+	#whatsapp {
+		width: 2rem;
+		height: 2rem;
+	}
