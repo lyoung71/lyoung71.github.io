@@ -1660,13 +1660,24 @@ input, select, textarea {
 			opacity: 0;
 		}
 
+		.scroll-container-web {
+			background-color: #333;
+			overflow: auto;
+			white-space: nowrap;
+			padding: 10px;
+		}
 		div.scroll-container-web {
 			background-color: #333;
 			overflow: auto;
 			white-space: nowrap;
 			padding: 10px;
 		}
-
+		.scroll-container-mobile {
+			background-color: #333;
+			overflow: auto;
+			white-space: nowrap;
+			padding: 10px;
+		}
 		div.scroll-container-mobile {
 			background-color: #333;
 			overflow: auto;
