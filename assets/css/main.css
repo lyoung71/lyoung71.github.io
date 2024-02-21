@@ -1660,17 +1660,30 @@ input, select, textarea {
 			opacity: 0;
 		}
 
-		div.scroll-container {
+		div.scroll-container-web {
 			background-color: #333;
 			overflow: auto;
 			white-space: nowrap;
 			padding: 10px;
 		}
 
-		div.scroll-container img {
+		div.scroll-container-mobile {
+			background-color: #333;
+			overflow: auto;
+			white-space: nowrap;
+			padding: 10px;
+		}
+
+		div.scroll-container-web img {
 			padding: 10px;
 			height: 350px;
 			width: 450px;
+		}
+
+		div.scroll-container-mobile img {
+			padding: 10px;
+			height: 500px;
+			width: 50%;
 		}
 
 		div.resume img {
